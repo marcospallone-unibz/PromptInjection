@@ -17,7 +17,7 @@ function testAddNumbers(){
     testCases.forEach(({ a, b, expected }, index) => {
         const result = addNumbers(a, b);
         if (result === expected) {
-            console.log(`Test case ${index + 1} passed.`);
+            console.log(`Test case ${index + 1} passed succesful.`);
         } else {
             console.log(`Test case ${index + 1} failed. Expected ${expected} but got ${result}.`);
         }
